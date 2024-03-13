@@ -14,6 +14,9 @@
             navPage.BarTextColor = Colors.White;   
             
             MainPage = navPage;
+
+            //Mi nuevo Flyout
+            MainPage = new FlyoutPageDemo();
         }
     }
 }
