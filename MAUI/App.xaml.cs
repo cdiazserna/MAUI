@@ -15,8 +15,11 @@
             
             MainPage = navPage;
 
-            //Mi nuevo Flyout
-            MainPage = new FlyoutPageDemo();
+            //Mi nuevo FlyouPage
+            //MainPage = new FlyoutPageDemo();
+
+            //Mi nuevo TabbedPage
+            MainPage = new TabbedPageDemo();
         }
     }
 }
